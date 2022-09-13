@@ -1,0 +1,136 @@
+:root {
+    --gradient: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+    --bottom-color1: violet;
+    --bottom-color2: rgb(95, 61, 216);
+}
+
+body {
+    background: var(--gradient);
+}
+
+.about-me{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.text{
+    text-align: center;
+    padding: 30px 30px 30px 30px;;
+    width: 500px;
+    background-color: rgb(4, 242, 254);
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(70, 66, 66);
+  
+}
+
+.bottom-about{
+    border: 2px solid blueviolet;
+    border-radius: 20px;
+    background: var(--bottom-color1);
+    color: aliceblue;
+    font-size: larger;
+    font-weight: 600;
+    padding: 20px 30px;
+    text-decoration: none;   
+}
+
+.bottom-about:hover {
+    background: var(--bottom-color2);
+    cursor: pointer;
+
+}
+.bottom-contact
+{
+    border: 2px solid blueviolet;
+    border-radius: 20px;
+    color: white;
+    background: var(--bottom-color2);
+    text-decoration: none;
+    padding: 20px 25px;
+    font-size: larger;
+    font-weight: 600; 
+}
+
+.bottom-contact:hover {
+    background: var(--bottom-color1);
+    cursor: pointer;
+}
+
+
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.index h1{
+    text-align: center;
+    color: blueviolet;
+    font-weight:bold;
+    font-size:65px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.index h2{
+    text-align: center;
+    font-weight:bold;
+    font-size:85px;
+    margin-top: -20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.index p{
+    text-align: center;
+    font-weight:bold;
+    font-size:25px;
+    margin-top: -60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.back-link {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: - 20px;
+    color: blue;
+    text-align: center;
+}
+.back-link:visited {
+    color: blue;
+    }
+
+    .main-about {
+        text-align: center;
+        font-weight:bold;
+        font-size:85px;
+        margin-top: 20px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+   
+    }
+.FeD {
+    text-align: center;
+    font-weight:bold;
+    font-size:25px;
+    margin-top: -60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--bottom-color1);
+    background: var(--bottom-color2);
+}
+
+.email-text {
+   text-align: center;
+   font-size: 55px;
+}
+
+.box-email {
+    
+    font-size: 35px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: -40px;
+    
+ }

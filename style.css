@@ -51,6 +51,7 @@ body {
 .bottom-about:hover {
     background: var(--bottom-color2);
     cursor: pointer;
+    color: white;
 
 }
 .bottom-contact
@@ -69,6 +70,7 @@ body {
 .bottom-contact:hover {
     background: var(--bottom-color1);
     cursor: pointer;
+    color: white;
 }
 
 
@@ -196,4 +198,16 @@ body {
     
  }
 
+
+ @media (max-width: 576px) {
+    .main-about ,.FeD, .email-text, .box-email , .name , .from{
+      font-size: 22px !important;
+    }
+     .name, .desc-ukraine , .main {
+        font-size: 35px !important;
+      }
+    .ukraine, .weather {
+      display: none;
+    }
+  }
  

@@ -6,6 +6,7 @@
 
 body {
     background: var(--gradient);
+    font-family: 'Playfair Display', serif !important;
 }
 
 .navigation {
